@@ -47,4 +47,13 @@ def fun(n):
 fun(6)
 
 #printing H using stars
-      
+def fun(n):
+    for i in range(1,n+1):
+        for j in range(1,n+1):
+            if(i==n//2 or j==1 or j==n):
+                print("*",end="")
+            else:
+                print(" ",end="")
+        print()
+
+fun(6)
