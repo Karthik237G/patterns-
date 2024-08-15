@@ -1,2 +1,2 @@
 # patterns
-creataing the patterns using the python and java language.
+creataing the patterns using python 
