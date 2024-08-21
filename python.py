@@ -72,7 +72,19 @@ def fun(n):
         print()
 
 fun(6)
-
+def fun(n):
+    i=1
+    while i<=n:
+        j=0
+        while j<=n:
+            if(i==1 or i==n or j==0 or j==n):
+                print("*",end="")
+            else:
+                print(" ",end="")
+            j+=1
+        i+=1
+        print()
+fun(5)
 #printing H using stars
 def fun(n):
     for i in range(1,n+1):
