@@ -6,7 +6,26 @@ def fun(n):
         
         print() #this line take us to next line
 fun(4)
-
+##the same with while loop
+def fun(n, i):
+    while i < n:
+        j = 0  # Reset j for each row
+        while j < n:  # Change condition to j < n for n asterisks
+            print("*", end="")
+            j += 1
+        i += 1
+        print()  # Print newline after each row
+fun(5, 0)
+##the same with while loop
+def fun(n,i):
+    while i<=n:
+        j=0
+        while j<=i:
+            print("*",end="")
+            j+=1
+        i+=1
+        print()
+fun(5,0)
 #creating a right angled triangle using the stars
 def fun(n):
     for i in range(n+1):
