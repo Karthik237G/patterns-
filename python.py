@@ -16,6 +16,14 @@ def fun(n, i):
         i += 1
         print()  # Print newline after each row
 fun(5, 0)
+
+#creating a right angled triangle using the stars
+def fun(n):
+    for i in range(n+1):
+        for j in range(i):
+            print(" *", end="")
+        print()
+fun(4)
 ##the same with while loop
 def fun(n,i):
     while i<=n:
@@ -26,23 +34,23 @@ def fun(n,i):
         i+=1
         print()
 fun(5,0)
-#creating a right angled triangle using the stars
-def fun(n):
-    for i in range(n+1):
-        for j in range(i):
-            print(" *", end="")
-        print()
-fun(4)
-
 #creating downward right angled triange
 def fun(n):
     for i in range(n+1):
         for j in range(n-i):
             print(" *",end="")
         print()
-
 fun(4)
-
+##the same with while loop
+def fun(n,i):
+    while i<=n:
+        j=0
+        while j<=n-i:
+            print("*",end="")
+            j+=1
+        i+=1
+        print()
+fun(5,0)
 #creating an equilateral triangle
 def fun(n):
     for i in range(n):
