@@ -72,6 +72,7 @@ def fun(n):
         print()
 
 fun(6)
+##the same with while loop
 def fun(n):
     i=1
     while i<=n:
@@ -96,3 +97,17 @@ def fun(n):
         print()
 
 fun(6)
+##the same with while loop
+def fun(n):
+    i=0
+    while i<=n:
+        j=0
+        while j<=n:
+            if (i==n//2 or j==0 or j==n):
+                print("*",end="")
+            else:
+                print(" ",end="")
+            j+=1
+        i+=1
+        print()
+fun(5)
