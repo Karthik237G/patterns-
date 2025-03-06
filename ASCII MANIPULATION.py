@@ -29,4 +29,15 @@ fun(5)
   DDDD
  EEEEE
  '''
-def fun(
+def fun(n):
+  for i in range(n):
+    print(" "*n-i-1,end='')
+    for j in range(2*i+1):
+      print(chr(j+65),end='')
+    print()
+fun(3)
+'''
+  A
+ ABC
+ABCDE
+'''
